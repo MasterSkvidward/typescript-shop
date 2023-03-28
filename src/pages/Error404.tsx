@@ -1,7 +1,7 @@
-import React from 'react';
+import React, { FC } from 'react';
 import classes from '../styles/Error.module.scss';
 
-const Error = () => {
+const Error:FC = () => {
     return (
        <div className={classes.error}>
            

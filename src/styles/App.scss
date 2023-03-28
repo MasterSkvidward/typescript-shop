@@ -1,6 +1,7 @@
 // !-------------------------------------------------------imports---------------------------------------------------
 // reset styles
 @import './reset.scss';
+@import './global.scss';
 
 // fonts
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&display=swap');
@@ -28,9 +29,11 @@
 }
 
 .App {
-    min-height: 100vh;
+    min-height: 300vh;
     display: flex;
     flex-direction: column;
+
+    background-color: $white;
 }
 
 ._container {

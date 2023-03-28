@@ -1,7 +1,7 @@
-import React from 'react';
+import React, { FC } from 'react';
 import classes from '../styles/HomePage.module.scss';
 
-const HomePage = () => {
+const HomePage:FC = () => {
     return (
        <div className={classes.homepage}>
            
